@@ -1,0 +1,10 @@
+C:\Users\Dominik\source\repos\AutoIU\AutoIU\obj\Debug\AutoIU.csprojAssemblyReference.cache
+C:\Users\Dominik\source\repos\AutoIU\AutoIU\obj\Debug\AutoIU.Form1.resources
+C:\Users\Dominik\source\repos\AutoIU\AutoIU\obj\Debug\AutoIU.Properties.Resources.resources
+C:\Users\Dominik\source\repos\AutoIU\AutoIU\obj\Debug\AutoIU.csproj.GenerateResource.cache
+C:\Users\Dominik\source\repos\AutoIU\AutoIU\obj\Debug\AutoIU.csproj.CoreCompileInputs.cache
+C:\Users\Dominik\source\repos\AutoIU\AutoIU\bin\Debug\AutoIU.exe.config
+C:\Users\Dominik\source\repos\AutoIU\AutoIU\bin\Debug\AutoIU.exe
+C:\Users\Dominik\source\repos\AutoIU\AutoIU\bin\Debug\AutoIU.pdb
+C:\Users\Dominik\source\repos\AutoIU\AutoIU\obj\Debug\AutoIU.exe
+C:\Users\Dominik\source\repos\AutoIU\AutoIU\obj\Debug\AutoIU.pdb
