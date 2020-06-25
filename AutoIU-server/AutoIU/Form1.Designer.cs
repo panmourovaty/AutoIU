@@ -68,12 +68,13 @@
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label20 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.label24 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -91,7 +92,6 @@
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // groupBox1
             // 
@@ -485,7 +485,6 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "BIOS / CSM";
             this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // label20
             // 
@@ -511,27 +510,35 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Instalace";
             // 
-            // label23
+            // label27
             // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(6, 19);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(168, 13);
-            this.label23.TabIndex = 0;
-            this.label23.Text = "otevřít umístění autounattend.xml";
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(4, 147);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(128, 13);
+            this.label27.TabIndex = 6;
+            this.label27.Text = "Instalace Programů - WIP";
             // 
-            // label25
+            // label24
             // 
-            this.label25.AutoSize = true;
-            this.label25.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label25.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label25.Location = new System.Drawing.Point(6, 113);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(168, 13);
-            this.label25.TabIndex = 2;
-            this.label25.Text = "Stránka na Generování odpovědí";
-            this.label25.Click += new System.EventHandler(this.label25_Click);
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(4, 56);
+            this.label24.MaximumSize = new System.Drawing.Size(180, 603);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(174, 39);
+            this.label24.TabIndex = 5;
+            this.label24.Text = "Soubor stačí pouze nahradit ve složce konfigurace a program si ho po spuštění zko" +
+    "píruje.";
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(21, 34);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(61, 20);
+            this.button7.TabIndex = 4;
+            this.button7.Text = "Otevřít";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label26
             // 
@@ -546,41 +553,42 @@
             this.label26.Text = "Windows ADK";
             this.label26.Click += new System.EventHandler(this.label26_Click);
             // 
-            // button7
+            // label25
             // 
-            this.button7.Location = new System.Drawing.Point(21, 34);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(61, 20);
-            this.button7.TabIndex = 4;
-            this.button7.Text = "Otevřít";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.label25.AutoSize = true;
+            this.label25.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label25.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label25.Location = new System.Drawing.Point(6, 113);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(168, 13);
+            this.label25.TabIndex = 2;
+            this.label25.Text = "Stránka na Generování odpovědí";
+            this.label25.Click += new System.EventHandler(this.label25_Click);
             // 
-            // label24
+            // label23
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(4, 56);
-            this.label24.MaximumSize = new System.Drawing.Size(180, 603);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(174, 39);
-            this.label24.TabIndex = 5;
-            this.label24.Text = "Soubor stačí pouze nahradit ve složce konfigurace a program si ho po spuštění zko" +
-    "píruje.";
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(6, 19);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(168, 13);
+            this.label23.TabIndex = 0;
+            this.label23.Text = "otevřít umístění autounattend.xml";
             // 
-            // label27
+            // checkedListBox1
             // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(4, 147);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(128, 13);
-            this.label27.TabIndex = 6;
-            this.label27.Text = "Instalace Programů - WIP";
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(794, 19);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(128, 184);
+            this.checkedListBox1.TabIndex = 17;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(794, 311);
+            this.ClientSize = new System.Drawing.Size(968, 557);
+            this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.label19);
@@ -590,11 +598,11 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox1);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "AutoIU";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -660,6 +668,7 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
     }
 }
 
