@@ -1,0 +1,47 @@
+#!ipxe
+
+#set boot-url http://${proxydhcp}/next-server
+set boot-url http://${next-server}
+set iscsi-server {next-server}
+set iqn iqn.2008-08.com.starwindsoftware:test
+set nfs-server ${next-server}
+set cifs-server //${next-server}
+#set boot-url http://10.0.0.52
+
+# Setup some basic convenience variables
+set menu-timeout 5000
+set submenu-timeout ${menu-timeout}
+
+# Ensure we have menu-default set to something
+isset ${menu-default} || set menu-default exit
+
+######## MAIN MENU ###################
+:start
+menu Vitejte v automaticke instalaci ucebny (AutoIU)
+item
+item --gap -- ------------------------- Moznosti ------------------------------
+item windows Spustit instalaci
+item disk Spustit system z prvniho mozneho disku
+item reboot     Restartovat
+item --gap -- -----------------------------------------------------------------
+choose --default disk --timeout 60000 target && goto ${target}
+
+########## UTILITY ITEMS ####################
+disk:
+exit
+
+:reboot
+reboot
+
+:windows
+cpuid --ext 29 && set arch amd64 || set arch x86
+set boot-url http://${next-server}
+kernel ${boot-url}/sources/wimboot
+initrd ${boot-url}/sources/install.bat install.bat
+initrd ${boot-url}/sources/winpeshl.ini winpeshl.ini
+initrd ${boot-url}/sources/autounattend.xml autounattend.xml
+initrd ${boot-url}/sources/bootmgr          BOOTMGR
+initrd ${boot-url}/sources/boot/bcd BCD
+initrd ${boot-url}/sources/Boot/boot.sdi BOOT.SDI
+initrd ${boot-url}/sources/sources/boot.wim BOOT.WIM
+boot 
