@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\AutoIU\AutoIU-client\AutoIU-client\AutoIU-client\bin\Debug\netcoreapp3.1\AutoIU-client.exe
+C:\Users\Administrator\Documents\AutoIU\AutoIU-client\AutoIU-client\AutoIU-client\bin\Debug\netcoreapp3.1\AutoIU-client.deps.json
+C:\Users\Administrator\Documents\AutoIU\AutoIU-client\AutoIU-client\AutoIU-client\bin\Debug\netcoreapp3.1\AutoIU-client.runtimeconfig.json
+C:\Users\Administrator\Documents\AutoIU\AutoIU-client\AutoIU-client\AutoIU-client\bin\Debug\netcoreapp3.1\AutoIU-client.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\AutoIU\AutoIU-client\AutoIU-client\AutoIU-client\bin\Debug\netcoreapp3.1\AutoIU-client.dll
+C:\Users\Administrator\Documents\AutoIU\AutoIU-client\AutoIU-client\AutoIU-client\bin\Debug\netcoreapp3.1\AutoIU-client.pdb
+C:\Users\Administrator\Documents\AutoIU\AutoIU-client\AutoIU-client\AutoIU-client\obj\Debug\netcoreapp3.1\AutoIU-client.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\AutoIU\AutoIU-client\AutoIU-client\AutoIU-client\obj\Debug\netcoreapp3.1\AutoIU_client.Form1.resources
+C:\Users\Administrator\Documents\AutoIU\AutoIU-client\AutoIU-client\AutoIU-client\obj\Debug\netcoreapp3.1\AutoIU-client.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\AutoIU\AutoIU-client\AutoIU-client\AutoIU-client\obj\Debug\netcoreapp3.1\AutoIU-client.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\AutoIU\AutoIU-client\AutoIU-client\AutoIU-client\obj\Debug\netcoreapp3.1\AutoIU-client.AssemblyInfo.cs
+C:\Users\Administrator\Documents\AutoIU\AutoIU-client\AutoIU-client\AutoIU-client\obj\Debug\netcoreapp3.1\AutoIU-client.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\AutoIU\AutoIU-client\AutoIU-client\AutoIU-client\obj\Debug\netcoreapp3.1\AutoIU-client.dll
+C:\Users\Administrator\Documents\AutoIU\AutoIU-client\AutoIU-client\AutoIU-client\obj\Debug\netcoreapp3.1\AutoIU-client.pdb
+C:\Users\Administrator\Documents\AutoIU\AutoIU-client\AutoIU-client\AutoIU-client\obj\Debug\netcoreapp3.1\AutoIU-client.genruntimeconfig.cache
