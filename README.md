@@ -11,4 +11,6 @@ Tento program obsahuje a generuje skripty pro bezobslužnou instalaci přes PXE 
 5. Pokud program najde DHCP server na síti tak nezapne svůj DHCP server a musíte nastavit vaše DHCP tak že PXE server je počítač ze kterého instalujete
 6. Nastavíme počítač tak aby startoval z PXE
 7. Nyní na všech počítačích se spustí nabídka ve které vyberete možnost instalovat
-8. Nyní je bezobslužná instalace spuštěna a stačí počkat než se vše nainstaluje
+8. Nyní je bezobslužná instalace spuštěna a stačí počkat než se vše nainstaluje9
+9. nashle
+10. 
